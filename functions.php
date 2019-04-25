@@ -13,4 +13,11 @@
     }
     // run simple function / call simple function wherever required
     simpleFunction();
+
+    // function with params
+    function sayHello($name) {
+        echo "Hello $name<br>";
+    }
+
+    sayHello('Gauresh');
 ?>
