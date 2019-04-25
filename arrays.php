@@ -24,5 +24,7 @@
         'pritesh' => 20,
         'amar' => 45
     );
-    echo $people['gauresh'];
+    // echo $people['gauresh'];
+    $people['padma'] = 38;
+    echo $people['padma'];
 ?>
