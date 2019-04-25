@@ -27,4 +27,21 @@
     }
 
     echo addNumbers(4,5);
+
+    // By Reference 
+    $myNum = 10;
+
+    function addFive($num) {
+        $num += 5;
+    }
+
+    function addTen(&$num) {
+        $num += 10;
+    }
+
+    addFive($myNum);
+    echo "Value: $myNum<br>";
+
+    addTen($myNum);
+    echo "Value: $myNum<br>";
 ?>
