@@ -14,6 +14,21 @@
         - Case Sensitive
     */
 
+    #DATA TYPES
+    /*
+        String
+        Integers
+        Floats
+        Booleans
+        Arrays
+        Objects
+        NULL
+        Resource 
+    */
+
+    $num1 = 70;
+    $num2 = 8;
+    $sum = $num1 + $num2;
     $output = "Hello World!";
-    echo $output;
+    echo $sum;
 ?>
