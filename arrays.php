@@ -26,5 +26,14 @@
     );
     // echo $people['gauresh'];
     $people['padma'] = 38;
-    echo $people['padma'];
+    // echo $people['padma'];
+
+    // Multi-dimensional Array
+    $cars = array(
+        array('honda', 20, 10),
+        array('ford', 30, 15),
+        array('toyota', 30, 10),
+    );
+
+    echo $cars[1][0];
 ?>
