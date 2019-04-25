@@ -35,4 +35,7 @@
     $st2 = 'World!';
     $str = $st1 . " " . $st2;
     echo $str;
+
+    define("GREET", "HOLA");
+    echo GREET;
 ?>
