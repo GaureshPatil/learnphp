@@ -30,5 +30,9 @@
     $num2 = 8;
     $sum = $num1 + $num2;
     $output = "Hello World!";
-    echo $sum;
+    echo $sum . "<br>";
+    $st1 = 'Hello';
+    $st2 = 'World!';
+    $str = $st1 . " " . $st2;
+    echo $str;
 ?>
