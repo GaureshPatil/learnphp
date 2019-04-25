@@ -37,9 +37,9 @@
 
 
     # Foreach - arrays
-    $people = array('gauresh', 'pritesh', 'amar');
-    foreach($people as $users) {
-        echo $users;
+    $people = array('gauresh' => 'gauresh@gmail.com', 'pritesh' => 'pritesh@gmail.com', 'amar' => 'amar@gmail.com');
+    foreach($people as $users => $emails) {
+        echo $users . " : " . $emails;
         echo "<br>";
     }
 ?>
