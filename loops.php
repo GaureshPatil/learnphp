@@ -34,4 +34,12 @@
         // echo '<br>';
         $i++;
     } while ($i < 10);
+
+
+    # Foreach - arrays
+    $people = array('gauresh', 'pritesh', 'amar');
+    foreach($people as $users) {
+        echo $users;
+        echo "<br>";
+    }
 ?>
