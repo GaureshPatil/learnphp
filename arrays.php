@@ -16,5 +16,6 @@
     echo "<br>" . count($ids);
     echo "<br>";
     print_r($ids);
+    var_dump($people);
 
 ?>
