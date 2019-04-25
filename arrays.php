@@ -1,4 +1,4 @@
-<?
+<?php
     #ARRAY - variable that holds multiple value
 
     /*
@@ -10,10 +10,11 @@
     // Indexed
 
     $people = array('gauresh', 'pritesh', 'amar');
-    echo $people[9];
+    echo $people[1];
     $ids = array(12, 15, 18);
-    echo $ids[2];
-    echo count($ids);
+    echo "<br>" . $ids[2];
+    echo "<br>" . count($ids);
+    echo "<br>";
     print_r($ids);
 
 ?>
