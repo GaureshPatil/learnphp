@@ -14,6 +14,14 @@
     // echo $server['Host Server Name'] . "<br>";
     // echo $server['Host Header'] . "<br>";
     // echo $server['Server Software'];
-    print_r($server);
+    // print_r($server);
+
     // Create a client array
+    $client = [
+        'Client System Info' => $_SERVER['HTTP_USER_AGENT'],
+        'Client IP' => $_SERVER['REMOTE_ADDR'],
+        'Remote Port' => $_SERVER['REMOTE_PORT']
+    ];
+
+    print_r($client);
 ?>
